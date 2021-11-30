@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <title>Build A Home</title>
+
+
+</head>
+
+<body style="background-color:DodgerBlue;">
+    <h1> Build your home!</h1>
+    <form style="background-color:antiquewhite; " action="http://localhost:8080/BuildAHome" method="POST">
+        
+        <br>
+        <label for ="styleOfHome"> Home Style: </label>
+        <p1><strong> Select the style of your home! Control-click (Windows) or command-click (Mac) to select more than one.</strong></p1>
+        <br>
+        <select multiple size="5" name="styleOfHome" id="styleOfHome">
+            <option value="Cape-Cod"> Cape Cod </option>
+            <option value="Colonial"> Colonial </option>
+            <option value="Contemporary"> Contemporary </option>
+            <option value="Cottage"> Cottage </option>
+            <option value="Craftsman"> Craftsman </option>
+            <option value="Greek-Revival"> Greek Revival </option>
+            <option value="French-Country"> French Country </option>
+            <option value="Mediterranean"> Mediterranean </option>
+            <option value="Midcentury"> Midcentury Modern </option>
+            <option value="Ranch"> Ranch </option>
+            <option value="Split-Level"> Split-Level </option>
+            <option value="Tudor"> Tudor </option>
+            <option value="Victorian"> Victorian </option>
+            <option value="Modern"> Modern </option>
+            
+        </select>
+        <br>
+        <br>
+        <label for ="numOfFloors"> House Number of Floors: </label>
+        <input type= "number" name="numOfFloors" id="numOfFloors" >
+        <br>
+        <label for ="styleOfFloor"> House style Of Floors: </label>
+        <p1><strong> Select 3 styles of floors for your home! Control-click (Windows) or command-click (Mac) to select more than one.</strong></p1>
+        <br>
+        <select multiple size="5" name="styleOfFloor" id="styleOfFloor">
+            <option value="Concrete"> Concrete </option>
+            <option value="Vinyl"> Vinyl </option>
+            <option value="Terrazzo"> Terrazzo </option>
+            <option value="Linoleum"> Linoleum </option>
+            <option value="Ceramic"> Ceramic Tile </option>
+            <option value="Marble"> Marble </option>
+            <option value="Wood"> Wood </option>
+        </select>
+        <br>
+        <br>
+        <label for ="numOfDoors">House number Of Doors: </label>
+        <input type= "number" name="numOfDoors" id="numOfDoors" min="2" max="30">
+        <br>
+        <label for ="typeOfDoor"> House type Of Doors: </label>
+        <p2><strong> Select 5 types of doors for your home! Control-click (Windows) or command-click (Mac) to select more than one.</strong></p2>
+        <br>
+        <select multiple size="5" name="typeOfDoor" id="typeOfDoor">
+            <option value="Hinged"> Hinged </option>
+            <option value="Dutch"> Dutch </option>
+            <option value="Pocket"> Pocket </option>
+            <option value="Roller"> Roller </option>
+            <option value="Bifold"> Bifold </option>
+            <option value="Sliding"> Sliding </option>
+            <option value="Pivot"> Pivot </option>
+            <option value="French"> French </option>
+        </select>
+        <br>
+        <br>
+        <label for ="numOfWindows"> House number Of Windows: </label>
+        <input type= "number" name="numOfWindows" id="numOfWindows" min="1" max="50">
+        <br>
+        <label for ="typeOfWindow"> House type Of Windows: </label>
+        <p3><strong> Select 2 types of windows for your home! Control-click (Windows) or command-click (Mac) to select more than one.</strong></p3>
+        <br>
+        <select multiple size="5" name="typeOfWindow" id="typeOfWindow">
+            <option value="Vinyl"> Vinyl </option>
+            <option value="Aluminum"> Aluminum </option>
+            <option value="Wood-cladded"> Wood-cladded </option>
+            <option value="Composite"> Composite </option>
+            <option value="Fiberglass"> Fiberglass </option>
+        </select>
+        <br>
+        <br>
+        <label for ="numOfBedrooms"> House number Of Bedrooms: </label>
+        <input type= "number" name="numOfBedrooms" id="numOfBedrooms" min="1" max="20">
+        <br>
+        <label for ="styleOfBedroom"> House style Of Bedrooms: </label>
+        <p4><strong> Select the bedroom syles for your home! Max: 3. Control-click (Windows) or command-click (Mac) to select more than one.</strong></p4>
+        <br>
+        <select multiple size="5" name="styleOfBedroom" id="styleOfBedroom">
+            <option value="Modern"> Modern </option>
+            <option value="Industrial"> Industrial </option>
+            <option value="Scandinavian"> Scandinavian </option>
+            <option value="Vintage"> Vintage </option>
+            <option value="Victorian"> Victorian </option>
+            <option value="Floral"> Floral </option>
+            <option value="Bohemian"> Bohemian </option>
+        </select>
+        <br>
+        <br>
+        <label for ="numOfBaths">House number Of Baths: </label>
+        <input type= "number" name="numOfBaths" id="numOfBaths" min="1" max="10">
+        <br>
+        <label for ="typeOfBathroom"> House types Of Bathrooms: </label>
+        <p5><strong> Select the bathroom types for your home! Max: 3. Control-click (Windows) or command-click (Mac) to select more than one.</strong></p5>
+        <br>
+        <select multiple size="5" name="typeOfBathroom" id="typeOfBathroom">
+            <option value="Modern"> Master </option>
+            <option value="Industrial"> Full </option>
+            <option value="Scandinavian"> Half </option>
+        </select>
+        <br>
+        <label for ="styleOfBathroom"> House style Of Bathrooms: </label>
+        <p6><strong> Select the bathroom styles for your home! Max: 2. Control-click (Windows) or command-click (Mac) to select more than one.</strong></p6>
+        <br>
+        <select multiple size="5" name="styleOfBathroom" id="styleOfBathroom">
+            <option value="Modern"> Modern </option>
+            <option value="Industrial"> Transitional </option>
+            <option value="Scandinavian"> Contemporary </option>
+            <option value="Traditional"> Traditional </option>
+            <option value="Farmhouse"> Farmhouse </option>
+            <option value="Rustic"> Rustic </option>
+            <option value="Industrial"> Industrial </option>
+        </select>
+        <br>
+        <br>
+        <label for ="numOfKitchens"> House number Of Kitchens: </label>
+        <input type= "number" name="numOfKitchens" id="numOfKitchens" min="1" max="5">
+        <br>
+        <label for ="styleOfKitchen"> House style Of Bathrooms: </label>
+        <p7><strong> Select the kitchen styles for your home! Max: 2. Control-click (Windows) or command-click (Mac) to select more than one.</strong></p7>
+        <br>
+        <select multiple size="5" name="styleOfKitchen" id="styleOfKitchen">
+            <option value="One-Wall"> One-Wall </option>
+            <option value="Galley"> Galley </option>
+            <option value="L-Shaped"> L-Shaped </option>
+            <option value="U-Shaped"> U-Shaped </option>
+            <option value="Island">  Island </option>
+            <option value="Peninsula"> Peninsula </option>
+        </select>
+        <br>
+        <br>
+        <button> Submit Your Home!</button>
+        <br>
+    </form>
+    <br>
+    <form action="http://localhost:8080/BuildAHome" method="GET">
+        <p8> Click to see your homes! </p8>
+        <br>
+        <button> See My Homes </button>
+    </form>
+
+</body>
+
+</html>
